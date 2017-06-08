@@ -1,0 +1,5 @@
+((INT_CONST 2) (FUN (IF0 ((INT_CONST 5)) ((INT_CONST 7))) (RETURN)) (INT_CONST 0) (APPLY) (ADD))
+((FUN (INT_CONST 8) (SUB) (RETURN)) (FUN (INT_CONST 5) (ADD) (RETURN)) (INT_CONST 3) (APPLY) (APPLY)  (IF0 ((INT_CONST 255)) ()))
+((FUN (INT_CONST 8) (SUB) (RETURN)) (FUN (INT_CONST 5) (ADD) (RETURN)) (INT_CONST 3) (APPLY) (APPLY)  (IF0 ((INT_CONST 255) (ADD)) ()) (INT_CONST 255) (SUB) (IF0 ((INT_CONST 77) (ADD)) ())) 
+
+''' La instrucción a compilar debe estar en la linea 1 de este archivo. '''
